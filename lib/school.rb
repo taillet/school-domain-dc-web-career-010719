@@ -26,7 +26,7 @@ class School
     hash = {}
     @roster.each { |key, hash| 
     binding.pry
-    hash.store(key, [])}
+    hash.store(key, hash.sort)}
     end
   
   
