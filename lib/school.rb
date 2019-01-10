@@ -23,10 +23,8 @@ class School
   end
   
   def sort
-    hash = {}
     @roster.map { |key, hash| 
-    binding.pry
-    hash.store(key, hash.sort)}
+    key = hash.sort}
     end
   
   
