@@ -25,7 +25,7 @@ class School
   def sort
     hash = {}
     self.roster.keys.each { |key| 
-     hash[key] = self.roster[key].sort
+     hash[key] = self.roster[key].sort!
      binding.pry
     }
   end
