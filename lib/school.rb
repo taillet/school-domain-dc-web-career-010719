@@ -26,7 +26,8 @@ class School
     hash = {}
     self.roster.each do |grade, students| 
       hash.store(grade, students.sort!)
-  end
     end
     hash
+  end
+    
 end
