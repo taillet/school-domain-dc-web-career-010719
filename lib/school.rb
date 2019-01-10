@@ -27,6 +27,7 @@ class School
     @roster.each { |grade, students| 
     grade = students.sort}
     end
+    hash
   
   
 end
