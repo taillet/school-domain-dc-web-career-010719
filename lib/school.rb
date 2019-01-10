@@ -28,5 +28,4 @@ class School
       hash.store(grade, students.sort!)
     end
   end
-    
 end
