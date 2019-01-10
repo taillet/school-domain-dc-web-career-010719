@@ -23,7 +23,7 @@ class School
   end
   
   def sort
-    @roster.map { |key, hash| 
+    @roster.each { |key, hash| 
     key = hash.sort}
     end
   
