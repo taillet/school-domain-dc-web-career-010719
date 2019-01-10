@@ -24,7 +24,7 @@ class School
   
   def sort
     self.roster.keys.map { |key| 
-     key => @roster[key].sort
+     key = @roster[key].sort
     }
   end
   
