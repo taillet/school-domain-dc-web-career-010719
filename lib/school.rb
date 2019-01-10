@@ -26,7 +26,6 @@ class School
     hash = {}
     self.roster.keys.each { |key| 
      hash[key] = self.roster[key].sort!
-     binding.pry
     }
   end
   
