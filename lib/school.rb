@@ -25,7 +25,7 @@ class School
   def sort
     hash = {}
     @roster.keys.each { |key| 
-    hash.store(key, self.roster.values.sort)}
+    hash.store(key, {}})}
     end
   
   
