@@ -25,7 +25,7 @@ class School
   def sort
     hash = {}
     @roster.each { |grade, students| 
-    grade = students.sort}
+    hash.store(grade, students.sort)}
     end
     hash
   
