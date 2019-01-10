@@ -23,6 +23,7 @@ class School
   end
   
   def sort
+    array = []
     self.roster.keys.each { |key| 
      key = @roster[key].sort
     }
