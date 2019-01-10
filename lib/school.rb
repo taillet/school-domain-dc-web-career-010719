@@ -24,8 +24,7 @@ class School
   
   def sort
     self.roster.keys.map { |key| 
-     key = @roster[key].sort
-     binding.pry
+     key => @roster[key].sort
     }
   end
   
