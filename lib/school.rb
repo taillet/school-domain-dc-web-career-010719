@@ -24,7 +24,8 @@ class School
   
   def sort
     hash = {}
-    @roster..each { |key, hash| 
+    @roster.each { |key, hash| 
+    binding.pry
     hash.store(key, [])}
     end
   
