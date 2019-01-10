@@ -24,7 +24,7 @@ class School
   
   def sort
     hash = {}
-    self.roster.map { |grade, students| 
+    self.roster.each { |grade, students| 
     hash.store(grade, students.sort!)}
     end
     hash
